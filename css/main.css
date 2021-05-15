@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center !important;
+}
+
+#navbar ul li a{
+    padding-top: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-bottom: 0 !important;
+}
+
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px !important;
+}
+
+/* Hakkında */
+
+#hakkında{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hakkında .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hakkında .items .item {
+    width: 33%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0;
+}
+
+.left{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+aside article{
+    height: 400px;
+}
+
+.left article{
+    height: 175px;
+}
+
+#cards{
+    margin-top: 1rem;
+}
+
+#card-pic{
+    height: 305px;
+}

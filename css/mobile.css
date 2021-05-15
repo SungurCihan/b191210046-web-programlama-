@@ -1,0 +1,15 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 89px;
+}
+
+#hakkında .items {
+    flex-direction: column;
+}
+
+#hakkında .items .item {
+    width: 100%;
+}
