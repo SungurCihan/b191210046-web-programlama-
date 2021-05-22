@@ -9,6 +9,10 @@ a{
     color: #fff !important;
 }
 
+table {
+    width: 100%;
+}
+
 #navbar {
     color: #fff;
     display: flex;
@@ -38,6 +42,11 @@ a{
 
 /* Hakkında */
 
+section {
+    margin-top: 1rem;
+}
+
+
 #hakkında{
     margin-top: 1rem;
     display: flex;
@@ -59,26 +68,41 @@ a{
     padding-bottom: 0;
 }
 
-.left{
-    width: 70%;
-}
 
-aside{
-    width: 30%;
-}
-
-aside article{
-    height: 400px;
-}
-
-.left article{
-    height: 175px;
+.width-card {
+    width: 33%;
 }
 
 #cards{
-    margin-top: 1rem;
+    padding: 0.5rem;
+    height: 500px;
 }
 
 #card-pic{
     height: 305px;
+}
+
+aside div{
+    height: 730px;
+}
+
+#paragraf {
+    margin-left: 25px;
+}
+
+.paragraf {
+    margin-top: 1rem;
+}
+
+.paragraf-extra {
+    padding-top: 3rem;
+}
+
+#tower-pic {
+    padding: 3rem;
+    padding-left: 5rem;
+}
+
+iframe {
+    margin-bottom: 3rem;
 }
