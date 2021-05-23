@@ -100,9 +100,25 @@ aside div{
 
 #tower-pic {
     padding: 3rem;
-    padding-left: 5rem;
 }
 
 iframe {
     margin-bottom: 3rem;
 }
+
+#footer-ilgi {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.iletisim {
+    width: 30rem;
+}
+
+.gender {
+    display: flex;
+    justify-content: left;
+}
+
